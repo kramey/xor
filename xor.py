@@ -1,7 +1,7 @@
 from PIL import Image
-from PIL import Imagechops
+from PIL import ImageChops
 
 im1 = Image.open("A.png")
 
-newimage = Imagechops.invert(im1)
+newimage = ImageChops.invert(im1)
 newimage.save("new.png")
